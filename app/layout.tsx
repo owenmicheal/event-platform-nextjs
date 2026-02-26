@@ -15,7 +15,7 @@ const martianMono = Martian_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NuruEvents",
+  title: "NajjiEvents",
   description: "The Hub for Every Event You Mustn't Miss",
 };
 
