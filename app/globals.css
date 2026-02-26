@@ -270,4 +270,50 @@
             }
         }
     }
+
+    #create-event-page {
+        @apply flex flex-col gap-8;
+
+        .subheading {
+            @apply text-light-100 text-lg max-sm:text-sm;
+        }
+    }
+
+    #create-event-form {
+        @apply bg-dark-100 border-dark-200 card-shadow rounded-[10px] border p-6;
+
+        form {
+            @apply flex flex-col gap-5;
+        }
+
+        .form-grid {
+            @apply grid grid-cols-1 md:grid-cols-2 gap-4;
+        }
+
+        label {
+            @apply flex flex-col gap-2 text-light-100 text-sm;
+        }
+
+        input,
+        textarea,
+        select {
+            @apply bg-dark-200 rounded-[6px] px-4 py-2.5 text-sm;
+        }
+
+        button {
+            @apply bg-primary hover:bg-primary/90 w-full cursor-pointer rounded-[6px] px-4 py-2.5 text-lg font-semibold text-black disabled:cursor-not-allowed disabled:opacity-60;
+        }
+
+        .status-success {
+            @apply mt-4 text-sm text-green-300;
+        }
+
+        .status-error {
+            @apply mt-4 text-sm text-red-300;
+        }
+
+        .status-link {
+            @apply mt-2 inline-flex text-sm text-blue underline;
+        }
+    }
 }

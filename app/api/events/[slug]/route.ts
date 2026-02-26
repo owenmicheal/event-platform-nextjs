@@ -1,7 +1,7 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 
 import connectDB from '@/lib/mongodb';
-import Event, { IEvent } from '@/database/event.model';
+import Event from '@/database/event.model';
 
 // Define route params type for type safety
 type RouteParams = {
@@ -15,10 +15,12 @@ type RouteParams = {
  * Fetches a single events by its slug
  */
 export async function GET(
-  req: NextRequest,
+  req: Request,
   { params }: RouteParams
 ): Promise<NextResponse> {
   try {
+    void req;
+
     // Connect to database
     await connectDB();
 

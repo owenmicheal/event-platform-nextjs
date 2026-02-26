@@ -8,13 +8,13 @@ const Navbar = () => {
         <Link href="/" className="logo">
           <Image src="/icons/logo.png" alt="logo" width={24} height={24} />
 
-          <p>NuruEvents</p>
+          <p>NajjiEvents</p>
         </Link>
 
         <ul>
           <Link href="/">Home</Link>
           <Link href="/">Events</Link>
-          <Link href="/">Create Event</Link>
+          <Link href="/create-event">Create Event</Link>
         </ul>
       </nav>
     </header>

@@ -1,20 +1,20 @@
-<div align="center">
+<!-- <div align="center">
   <br />
     <a href="https://youtu.be/I1V9YWqRIeI" target="_blank">
-      <img src="public/readme/readme-hero.webp" alt="Project Banner">    
+      <img src="public/readme/readme-hero.webp" alt="Project Banner">
     </a>
   <br />
 
   <div>
-<img src="https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=Next.js&logoColor=white" /> 
-<img src="https://img.shields.io/badge/-Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white" /> 
+<img src="https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=Next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/-Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/-Tailwind-06B6D4?style=for-the-badge&logo=Tailwind%20CSS&logoColor=white" />
 <img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white" /><br/>
 
-<img src="https://img.shields.io/badge/-Warp-000000?style=for-the-badge&logo=Warp&logoColor=white" /> 
+<img src="https://img.shields.io/badge/-Warp-000000?style=for-the-badge&logo=Warp&logoColor=white" />
 <img src="https://img.shields.io/badge/-Cloudinary-002C73?style=for-the-badge&logo=Cloudinary&logoColor=white" />
-<img src="https://img.shields.io/badge/-PostHog-EB9D2A?style=for-the-badge&logo=PostHog&logoColor=white" /> 
-<img src="https://img.shields.io/badge/-CodeRabbit-F88B83?style=for-the-badge&logo=CodeRabbit&logoColor=white" /> 
+<img src="https://img.shields.io/badge/-PostHog-EB9D2A?style=for-the-badge&logo=PostHog&logoColor=white" />
+<img src="https://img.shields.io/badge/-CodeRabbit-F88B83?style=for-the-badge&logo=CodeRabbit&logoColor=white" />
 
 
   </div>
@@ -75,15 +75,15 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Home Page**: Displays a dynamic list of events, allowing users to browse upcoming and featured events easily.  
+👉 **Home Page**: Displays a dynamic list of events, allowing users to browse upcoming and featured events easily.
 
-👉 **API Routes**: Create, update, delete, and fetch events from the database with fully functional endpoints.  
+👉 **API Routes**: Create, update, delete, and fetch events from the database with fully functional endpoints.
 
-👉 **Cloudinary Integration**: Use the Cloudinary SDK to easily upload and manage images in the cloud.  
+👉 **Cloudinary Integration**: Use the Cloudinary SDK to easily upload and manage images in the cloud.
 
-👉 **Event Details Page**: Shows event information with the ability to register and view a list of similar events.  
+👉 **Event Details Page**: Shows event information with the ability to register and view a list of similar events.
 
-👉 **Next.js 16 Caching**: Implements a completely new approach to caching for improved performance and faster page loads.  
+👉 **Next.js 16 Caching**: Implements a completely new approach to caching for improved performance and faster page loads.
 
 👉 **PostHog Analytics**: Tracks user interactions and events, providing detailed insights into app usage and behavior.
 
@@ -159,4 +159,4 @@ detailed explanations, cool features, and exercises to boost your skills. Give i
 
 <a href="https://jsm.dev/devevent-jsmpro" target="_blank">
   <img src="public/readme/readme-jsmpro.webp" alt="Project Banner">
-</a>
+</a> -->
